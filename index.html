@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Poppins|Poor+Story|Roboto" rel="stylesheet">
+
+	<!-- Chatbot -->
+	<link rel="stylesheet" type="text/css" href="css/chatbot.css" />
+	<script src="js/chat.js"></script>
+	<script src="js/chatbot.js"></script>
+
+	<title>Chat UI</title>
+</head>
+<body>
+	<div class="container fullheight">
+		<div class="row fullheight">
+			<div class="col-md-12 col-sm-12 col-xs-12 fullheight">
+
+				<div class="col-md-2 col-xs-4 img-circle" id="openChatConversation" style="width: 100px; height: 100px; background: #008738; position: fixed; bottom: 90px; right: 50px;">
+					<img src="img/mascut.png" class="img img-responsive" style="margin-top: 15px;" />
+				</div>
+
+				<div class="chatTotal">
+
+						<div class="well well-sm">
+							<div class="col-md-10 col-xs-10">
+								<img src="https://technicalhub.io/img/darklogo.png" class="img img-responsive" />
+							</div>
+							<div class="col-md-2 col-xs-2">
+								<i class="fa fa-window-close fa-lg chat-box-toggle pull-right" style="margin-top: 20px; font-size: 28px; color: #E52046;"></i>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+					<div class="chat-box positionRel">
+
+						<div class="chatConversation">
+						</div>
+
+					</div>
+						<div id="chat-boxEnd"></div>
+
+					<div class="col-xs-12 col-md-12 paddingNone typingText borderRed">
+
+						<form>
+							<div class="col-xs-10 paddingNone" style="border-right: 2px solid #000;">
+								<input type="textbox" class="form-control" placeholder="Ask a Question" id="quesiton" autofocus />
+							</div>
+
+							<div class="col-xs-1">
+								<button type="submit" id="submit"><i class="fa fa-send fw fa-lg" style="margin-top: 10px;"></i></button>
+							</div>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
